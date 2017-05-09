@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app" ng-controller="appController">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Title</title>
+    <title ng-bind="name"></title>
 </head>
 <body>
-aaa
-<script src="../node_modules/"
-<script src="js/index.js"></script>
-
+<nav></nav>
 </body>
 <script>
     var font = window.screen.width / 10 + 'px';
     document.getElementsByTagName('html')[0].style.fontSize = font;
 </script>
+<script src="lib/angular/angular.js"></script>
+<script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="js/index.js"></script>
 </html>
